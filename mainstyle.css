@@ -1,3 +1,9 @@
 * {
     font-family: "Montserrat";
 }
+
+
+.header {
+    display: grid;
+    text-align: center;
+}
