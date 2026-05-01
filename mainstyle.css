@@ -51,7 +51,7 @@ body {
 .top {
   text-align: center;
   background-color: var(--g2);
-  margin: 65% 10% 0px;
+  margin: 350px 10% 0px;
   box-shadow: 10px 10px 5px #000000;
   border-radius: 15px;
   color: var(--b5);
@@ -87,6 +87,10 @@ body {
   
   .header h3 {
     font-size: 20px;
+  }
+  
+  .top {
+    margin: 250px 10% 0px;
   }
   
   .top h2 {
