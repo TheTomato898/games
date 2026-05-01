@@ -9,7 +9,7 @@ body {
   background-color: var(--g1);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 1000' preserveAspectRatio='none'%3E%3Crect width='1440' height='1000' fill='rgba(6,80,156,1)'/%3E%3Cpath d='M0,570 C180,650 360,490 540,570 C720,650 900,490 1080,570 C1260,650 1440,570 1440,570 L1440,1000 L0,1000 Z' fill='rgba(5,62,120,1)'/%3E%3Cpath d='M0,870 C180,810 360,930 540,870 C720,810 900,930 1080,870 C1260,810 1440,870 1440,870 L1440,1000 L0,1000 Z' fill='rgba(30,30,30,1)'/%3E%3C/svg%3E");
   background-repeat: repeat-x;
-  background-size: 1440px 1000px;
+  background-size: 1440px 750px;
 }
 
 
@@ -45,4 +45,54 @@ body {
 .header h3 {
   background-color: var(--g2);
   font-size: 35px;
+}
+
+
+.top {
+  text-align: center;
+  background-color: var(--g2);
+  margin: 65% 10% 0px;
+  box-shadow: 10px 10px 5px #000000;
+  border-radius: 15px;
+  color: var(--b5);
+}
+
+
+.top h2 {
+  padding: 10px;
+  font-size: 45px
+}
+
+
+.top p {
+  padding: 2px 65px 5px;
+  font-size: 17px;
+}
+
+
+@media (max-width: 550px) {
+  
+  body {
+    background-size: 1440px 500px;
+  }
+  
+  .header {
+    padding: 25px;
+  }
+  
+  .header h1 {
+    font-size: 50px;
+    height: 130px;
+  }
+  
+  .header h3 {
+    font-size: 20px;
+  }
+  
+  .top h2 {
+    font-size: 35px;
+  }
+  .top p {
+    font-size: 15px;
+  }
 }
